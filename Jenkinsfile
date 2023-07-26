@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello Neron"
+                sh 'echo "Hello Neron"'
                 sh '''
                     echo "This is a multiline shell"
                     echo "Bye"
